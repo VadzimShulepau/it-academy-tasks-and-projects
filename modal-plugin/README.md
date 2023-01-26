@@ -1,2 +1,0 @@
-# modalPlugin
-modal plugin
