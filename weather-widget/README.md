@@ -1,2 +1,0 @@
-# weatherWidget
-weather widget
