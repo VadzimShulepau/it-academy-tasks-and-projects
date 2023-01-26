@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Practical task №23 (modal plugin)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+		
+  <body>
+
+    <div class="wrapper">
+      <div class="link-wrapper">
+        <a href="#" class="link" data-supermodal="modal-1">link1</a>
+        <a href="#" class="link" data-supermodal="modal-2" data-supermodal-title = 'Дикая природа Амазонки' data-supermodal-content = '<iframe width="560" height="315" src="https://www.youtube.com/embed/X8Z8okhkjv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'>link2</a>
+        <a href="#" class="link" data-supermodal="modal-3" data-supermodal-title = 'Title modal window 3' data-supermodal-content = 'Text content for modal window 3'>link3</a>
+      </div>
+      <div class="modal-wrapper">
+          <div class="modal modal-hide" id="modal-1">
+            <div class="close"></div>
+          <p class="title">Title modal window 1</p>
+          <p class="text">Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Numquam blanditiis fugiat repellat unde quas corrupti atque hic corporis libero eos, pariatur ut. Veniam dolores deserunt, fugiat rerum, qui voluptatibus numquam?</p>
+        </div>  
+          <div class="modal modal-hide" id="modal-2">
+            <div class="close"></div>
+          <p class="title">modal-2</p>
+          <p class="text"></p>
+        </div>  
+          <!-- <div class="modal" id="modal-3"> -->
+        </div>  
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
