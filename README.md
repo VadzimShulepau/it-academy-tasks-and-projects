@@ -1,0 +1,5 @@
+[modal plugin](https://github.com/VadzimShulepau/it-academy/tree/modal-plugin)  
+[mvc clock](https://github.com/VadzimShulepau/it-academy/tree/mvc-clock)  
+[racing game](https://github.com/VadzimShulepau/it-academy/tree/racing-game)  
+[sortable list](https://github.com/VadzimShulepau/it-academy/tree/sortable-list)  
+[weather widget](https://github.com/VadzimShulepau/it-academy/tree/weather-widget)  
